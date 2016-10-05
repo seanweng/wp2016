@@ -1,5 +1,6 @@
 body
 {
-  background-color: lightblue;
-
+  background-image: url("https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/11078074_801145029935268_8288419193646029434_n.jpg?oh=8ee40c66a119366798da3aa4aa6a86a4&oe=58ACC76C");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
