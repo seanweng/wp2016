@@ -18,13 +18,15 @@ animation-iteration-count: infinite;
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    0%   {left:10%; top:90%;}
+    0%   {left:90%; top:90%;}
+    100%   {right:90%; bottom:90%;}
 }
 
 
 
 @keyframes example {
-    0%   {left:10%; top:90%;}
+    0%   {left:90%; top:90%;}
+    100%   {right:90%; bottom:90%;}
     }
     
 
