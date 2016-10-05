@@ -3,5 +3,9 @@ body
   background-color:lightgreen;
 }
 
+div
+{
+border-radius:100%;
 
+}
 
