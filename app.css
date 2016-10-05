@@ -18,17 +18,21 @@ animation-iteration-count: infinite;
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    0%   {left:90%; top:90%;}
-    100%   {right:90%; bottom:90%;}
-}
+    0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:200px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+                75%  {background-color:green; left:0px; top:200px;}
+                    100% {background-color:red; left:0px; top:0px;}
+                    }
 
-
-
-@keyframes example {
-    0%   {left:90%; top:90%;}
-    100%   {right:90%; bottom:90%;}
-    }
-    
+                    /* Standard syntax */
+                    @keyframes example {
+                        0%   {background-color:red; left:0px; top:0px;}
+                            25%  {background-color:yellow; left:200px; top:200px;}
+                                50%  {background-color:blue; left:200px; top:200px;}
+                                    75%  {background-color:green; left:0px; top:200px;}
+                                        100% {background-color:red; left:0px; top:0px;}
+                                        }
 
 
 
