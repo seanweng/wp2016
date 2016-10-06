@@ -19,20 +19,20 @@ animation-iteration-count: infinite;
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-0%   { left:0px; top:0px;}
-25%  { left:350px; top:350px;}
-50%  { left:700px; top:0px;}
-75%  { left:1050px; top:350px;}
+0%   { left:-10px; top:-10px;}
+25%  { left:360px; top:360px;}
+50%  { left:730px; top:-10px;}
+75%  { left:1020px; top:290px;}
 100% { left:0px; top:0px;}
 
 }
 
 /* Standard syntax */
 @keyframes example {
-0%   { left:0px; top:0px;}
-25%  { left:350px; top:350px;}
-50%  { left:700px; top:0px;}
-75%  { left:1050px; top:350px;}
+0%   { left:-10px; top:-10px;}
+25%  { left:360px; top:360px;}
+50%  { left:730px; top:-10px;}
+75%  { left:1020px; top:290px;}
 100% { left:0px; top:0px;}
 }
 
