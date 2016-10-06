@@ -20,18 +20,18 @@ animation-iteration-count: infinite;
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
 0%   { left:-10px; top:-25px;}
-25%  { left:360px; top:345px;}
-50%  { left:730px; top:-25px;}
-75%  { left:1028px; top:273px;}
+25%  { left:361px; top:346px;}
+50%  { left:732px; top:-25px;}
+75%  { left:1029px; top:272px;}
 100% { left:-10px; top:-25px;}
 }
 
 /* Standard syntax */
 @keyframes example {
 0%   { left:-10px; top:-25px;}
-25%  { left:360px; top:345px;}
-50%  { left:730px; top:-25px;}
-75%  { left:1028px; top:273px;}
+25%  { left:361px; top:346px;}
+50%  { left:732px; top:-25px;}
+75%  { left:1029px; top:272px;}
 100% { left:-10px; top:-25px;}
 }
 
