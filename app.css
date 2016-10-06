@@ -30,9 +30,9 @@ animation-iteration-count: infinite;
 /* Standard syntax */
 @keyframes example {
 0%   { left:0px; top:0px;}
-25%  { left:300px; top:300px;}
-50%  { left:600px; top:0px;}
-75%  { left:0px; top:200px;}
+25%  { left:400px; top:400px;}
+50%  { left:800px; top:0px;}
+75%  { left:1000px; top:200px;}
 100% { left:0px; top:0px;}
 }
 
