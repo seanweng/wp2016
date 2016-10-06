@@ -20,9 +20,9 @@ animation-iteration-count: infinite;
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
 0%   { left:-10px; top:-15px;}
-25%  { left:360px; top:360px;}
-50%  { left:730px; top:-10px;}
-75%  { left:1030px; top:300px;}
+25%  { left:360px; top:355px;}
+50%  { left:730px; top:-15px;}
+75%  { left:1025px; top:280px;}
 100% { left:-10px; top:-15px;}
 
 }
@@ -30,9 +30,9 @@ animation-iteration-count: infinite;
 /* Standard syntax */
 @keyframes example {
 0%   { left:-10px; top:-15px;}
-25%  { left:360px; top:360px;}
-50%  { left:730px; top:-10px;}
-75%  { left:1030px; top:300px;}
+25%  { left:360px; top:355px;}
+50%  { left:730px; top:-15px;}
+75%  { left:1025px; top:280px;}
 100% { left:-10px; top:-15px;}
 }
 
