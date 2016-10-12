@@ -11,6 +11,8 @@ border-radius:200px;
 height:200px;
  
 position: relative;
+animation-timing-function:linear;
+animation-fill-mode:forwards;
 animation-name: ball;
 animation-duration: 30s;
 }
