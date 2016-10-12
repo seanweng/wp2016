@@ -30,38 +30,38 @@ animation-delay: 2s;
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes ball {
-0%   { left:0px; top:0px;}
-10%  { left:371px; top:371px;}
-20%  { left:732px; top:0px;}
-28%  { left:1039px; top:297px;}
-30%  { left:965px; top:371px;}
-40%  { left:558px; top:0px;}
-50%  { left:187px; top:371px;}
-55%  { left:0px; top:184px;}
-60% { left:184px; top:0px;}
-70% { left:555px; top:371px;}
-80% { left:926px; top:0px;}
-83% { left:1039px; top:113px;}
-90% { left:781px; top:371px;}
-100% { left:410px; top:0px;}
+0%   { left:0px; top:0px; background-color:black; color:white}
+10%  { left:371px; top:371px;background-color:black; color:white}}
+20%  { left:732px; top:0px;background-color:black; color:white}}
+28%  { left:1039px; top:297px;background-color:black; color:white}}
+30%  { left:965px; top:371px;background-color:black; color:white}}
+40%  { left:558px; top:0px;background-color:black; color:white}}
+50%  { left:187px; top:371px;background-color:black; color:white}}
+55%  { left:0px; top:184px;background-color:black; color:white}}
+60% { left:184px; top:0px;background-color:black; color:white}}
+70% { left:555px; top:371px;background-color:black; color:white}}
+80% { left:926px; top:0px;background-color:black; color:white}}
+83% { left:1039px; top:113px;background-color:black; color:white}}
+90% { left:781px; top:371px;background-color:black; color:white}}
+100% { left:410px; top:0px;background-color:black; color:white}}
 }
 
 /* Standard syntax */
 @keyframes ball {
-0%   { left:0px; top:0px;}
-10%  { left:371px; top:371px;}
-20%  { left:732px; top:0px;}
-28%  { left:1039px; top:297px;}
-30%  { left:965px; top:371px;}
-40%  { left:558px; top:0px;}
-50%  { left:187px; top:371px;}
-55%  { left:0px; top:184px;}
-60% { left:184px; top:0px;}
-70% { left:555px; top:371px;}
-80% { left:926px; top:0px;}
-83% { left:1039px; top:113px;}
-90% { left:781px; top:371px;}
-100% { left:410px; top:0px;}
+0%   { left:0px; top:0px;background-color:black; color:white}}
+10%  { left:371px; top:371px;background-color:black; color:white}}
+20%  { left:732px; top:0px;background-color:black; color:white}}
+28%  { left:1039px; top:297px;background-color:black; color:white}}
+30%  { left:965px; top:371px;background-color:black; color:white}}
+40%  { left:558px; top:0px;background-color:black; color:white}}
+50%  { left:187px; top:371px;background-color:black; color:white}}
+55%  { left:0px; top:184px;background-color:black; color:white}}
+60% { left:184px; top:0px;background-color:black; color:white}}
+70% { left:555px; top:371px;background-color:black; color:white}}
+80% { left:926px; top:0px;background-color:black; color:white}}
+83% { left:1039px; top:113px;background-color:black; color:white}}
+90% { left:781px; top:371px;background-color:black; color:white}}
+100% { left:410px; top:0px;background-color:black; color:white}}
 }
 
 
