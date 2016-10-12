@@ -10,7 +10,7 @@ width:200px;
 border-radius:200px;
 height:200px;
  
-position: relative;
+position: absolute;
 animation-timing-function:linear;
 animation-fill-mode:forwards;
 animation-name: ball;
