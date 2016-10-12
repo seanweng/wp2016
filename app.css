@@ -15,11 +15,13 @@ animation-name: ball;
 animation-duration: 10s;
 animation-iteration-count: infinite;
 }
-#1
+
+#c1
 {
 animation-delay: 0s;
 }
-#2
+
+#c2
 {
 animation-delay: 3s;
 }
