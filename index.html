@@ -1,13 +1,23 @@
-<html>
-
+cript src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></
 <body>
+      <p> ID:</p>
+                 <form >
+                                 <input type="text" id="id">
+                                                 <button type="submit"> GO! </button>
+                                                            </form>
+                                                                       <span id="receive"></span>
+                                                                       </body>
+                                                                         <script>
+                                                                             $('form').submit(function(e){
+                                                                                        e.preventDefault();
+                                                                                                   $.ajax({
+                                                                                                                   url:'do.njs',
+                                                                                                                                   data:{'id':$('#id').val()},
+                                                                                                                                                   success:(data)=>
+                                                                                                                                                                   {
+                                                                                                                                                                                   $('#receive').html(data);}
+                                                                                                                                                                                                   });
+                                                                                                                                                                                                                                   });
+                                                                                                                                                                                                                                     </script>
+                                                                                                                                                                                                                                     </html>
 
-<form action="do.njs" method="GET">
-<p> Name: </p>
-<input size=10 name="name">
-<input type="submit" value="送出">
-</form>
-
-
-</body>
-</html>
