@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/user/seanweng/git/wp2016
 var querystring = require('querystring');
 var param=querystring.parse(process.env.QUERY_STRING);
 
